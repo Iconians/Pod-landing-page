@@ -1,4 +1,7 @@
-.site-wrapper {max-width: 1600px;}
+.site-wrapper {
+  max-width: 1200px;
+  margin: auto
+}
 
 .brand {
   display: flex;
@@ -11,11 +14,11 @@
 }
 
 .main-body {
-  background-color: var(--bg); 
+  background-color: var(--bg);
   position: absolute;
   top: 220px;
-  left: 400px;
-  width: 716px;
+  left: 361px;
+  width: 647px;
 }
 
 .main-heading-text-green, .main-heading-text {
@@ -23,7 +26,7 @@
   color: var(--green);
   font-family: 'Chivo', sans-serif;
   font-weight: 100;
-  font-size: 62px;
+  font-size: 54px;
   margin-bottom: 0;
 }
 
@@ -36,7 +39,7 @@
 .main-text p {
   font-family: 'Chivo', 'san-serif';
   font-weight: 100;
-  font-size: 19px;
+  font-size: 18px;
   color: var(--grey);
 }
 
@@ -44,4 +47,23 @@
   position: relative;
   display: inline-flex;
   align-items: center;
+}
+
+.email-input {
+  padding: 1.1rem 8.2rem;
+  background-color: var(--off-black);
+  border: 1px solid var(--off-black);
+  border-radius: 50rem;
+}
+
+.email-input:focus {outline: none;}
+
+.submission-btn {
+  position: absolute;
+  right: 5px;
+  background-color: var(--green);
+  padding: 0.8rem 1.8rem;
+  border-radius: 50rem;
+  border: 1px solid var(--green);
+  font-weight: 700;
 }

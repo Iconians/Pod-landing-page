@@ -1,0 +1,47 @@
+.site-wrapper {max-width: 1600px;}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.host-pic {
+  position: relative;
+  top: 20px;
+}
+
+.main-body {
+  background-color: var(--bg); 
+  position: absolute;
+  top: 220px;
+  left: 400px;
+  width: 716px;
+}
+
+.main-heading-text-green, .main-heading-text {
+  text-transform: capitalize;
+  color: var(--green);
+  font-family: 'Chivo', sans-serif;
+  font-weight: 100;
+  font-size: 62px;
+  margin-bottom: 0;
+}
+
+.main-heading-text {
+  color: var(--white);
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.main-text p {
+  font-family: 'Chivo', 'san-serif';
+  font-weight: 100;
+  font-size: 19px;
+  color: var(--grey);
+}
+
+.email-div label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}

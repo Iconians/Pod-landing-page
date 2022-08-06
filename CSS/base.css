@@ -1,0 +1,16 @@
+:root {
+  --bg: #121725;
+  --green: #54e6af;
+  --off-black: #2c344b;
+  --white: #ffffff;
+  --grey: #5a668a;
+  --lightgrey: #c2cbe5;
+}
+
+
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  padding: 4rem;
+}

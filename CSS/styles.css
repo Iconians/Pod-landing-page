@@ -60,13 +60,13 @@
   background-color: var(--off-black);
   border: 1px solid var(--off-black);
   border-radius: 50rem;
+  color: var(--white);
   position: relative;
   left: 0px;
 }
 
 .email-input:focus {
   outline: none;
-  color: var(--white);
   background-color: var(--off-black);
 }
 

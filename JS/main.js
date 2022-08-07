@@ -25,14 +25,14 @@ submitForm.addEventListener('submit', (event) => {
   event.preventDefault()
   const test1 = email.value.length === 0;
   const test2 = emailRegExp.test(email.value);
-  if (!test1) {
+  if (test1) {
     email.className = 'invalid email-input';
-    error.textContent = emailFormattedWrong;
+    error.textContent = emptyEmail;
     error.className = 'error active error-message';
   }
-  else if (!test2) {
+  else if (test2) {
   email.className = 'invalid email-input';
-  error.textContent = emptyEmail;
+  error.textContent = emailFormattedWrong;
   error.className = 'error active error-message';
   }
   else {

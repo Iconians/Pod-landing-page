@@ -1,11 +1,15 @@
 .site-wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto
 }
 
 .brand {
   display: flex;
   justify-content: space-between;
+}
+
+.brand-icon {
+  margin-left: 98px;
 }
 
 .host-pic {
@@ -18,11 +22,11 @@
   position: absolute;
   top: 220px;
   left: 361px;
-  width: 647px;
+  width: 745px;
 }
 
 .main-heading-text-green, .main-heading-text {
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: var(--green);
   font-family: 'Chivo', sans-serif;
   font-weight: 100;
@@ -39,8 +43,12 @@
 .main-text p {
   font-family: 'Chivo', 'san-serif';
   font-weight: 100;
-  font-size: 18px;
+  font-size: 19px;
   color: var(--grey);
+}
+
+.email-div {
+  margin-bottom: 110px;
 }
 
 .email-div label {
@@ -66,4 +74,28 @@
   border-radius: 50rem;
   border: 1px solid var(--green);
   font-weight: 700;
+  cursor: pointer;
+}
+
+.submission-btn:hover {
+  background-color: #76f0c1;
+}
+
+.brand-list-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.brand-ul li {margin-right: 40px;}
+
+.dots {
+  position: absolute;
+  right: -550px;
+  bottom: -48px;
 }

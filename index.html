@@ -33,10 +33,13 @@
           </p>
         </div>
         <div class="email-div">
-          <label for="email submission">
-          <input type="email" id="email" class="email-input" placeholder="Email address">
-          <button class="submission-btn">Request Access</button>
-        </label>
+          <form action="" novalidate>
+            <label for="email submission"> 
+              <input type="email" id="email" class="valid email-input" autocomplete="off" placeholder="Email address">
+              <input class="submission-btn"  value="Request Access" type="submit"></input>
+            </label>
+            <p class="error-message" id="errorMessage"></p>
+          </form>
         </div>
         <div class="brand-list-icons">
           <div class="brand-ul-div">

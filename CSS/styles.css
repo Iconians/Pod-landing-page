@@ -58,13 +58,20 @@
 }
 
 .email-input {
-  padding: 1.1rem 8.2rem;
+  padding: 1.1rem;
+  padding-right: 16rem;
   background-color: var(--off-black);
   border: 1px solid var(--off-black);
   border-radius: 50rem;
+  position: relative;
+  left: 0px;
 }
 
-.email-input:focus {outline: none;}
+.email-input:focus {
+  outline: none;
+  color: var(--white);
+  background-color: var(--off-black);
+}
 
 .submission-btn {
   position: absolute;
@@ -79,6 +86,10 @@
 
 .submission-btn:hover {
   background-color: #76f0c1;
+}
+
+.error-message {
+  color: red;
 }
 
 .brand-list-icons {

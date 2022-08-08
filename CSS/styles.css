@@ -15,9 +15,9 @@
 
 .main-body {
   background-color: var(--bg);
-  position: absolute;
-  top: 154px;
-  left: 163px;
+  position: relative;
+  bottom: 530px;
+  /* left: 0px; */
   width: 646px;
   height: 510px;
 }

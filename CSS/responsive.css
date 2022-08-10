@@ -85,5 +85,31 @@
   .pic-3 {
     display: block;
   }
-  
+
+  .main-body {
+    left: 0px;
+    background-color: initial;
+  }
+
+  .main-heading-text-green {
+    font-size: 35px;
+    text-align: center;
+    max-width: 515px;
+  }
+
+  .main-heading-text {
+    text-align: center;
+    max-width: 515px;
+  }
+
+  .swap-email-brand-icons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .email-div {
+    margin-bottom: 0;
+    position: initial;
+  }
+
 }

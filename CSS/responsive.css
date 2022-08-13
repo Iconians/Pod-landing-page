@@ -1,3 +1,41 @@
+@media (max-width: 1350px) {
+  .main-body {
+    width: 584px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .main-heading-text-green, .main-heading-text {
+    font-size: 40px;
+  } 
+  
+  .main-body {
+    width: 533px
+  }
+
+  .brand-ul-div {
+    max-width: 533px;
+  }
+
+  .brand-ul li > img {
+   max-width: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-body {
+    width: 492px;
+  }
+
+  .main-heading-text-green, .main-heading-text {
+    font-size: 36px;
+  } 
+
+  .brand-ul li > img {
+    max-width: 95px;
+   }
+}
+
 @media (max-width: 1100px) {
   .brand-icon {
     height: fit-content;
@@ -8,17 +46,25 @@
   .main-body {
     background-color: var(--bg);
     position: relative;
-    width: 634px;
-    margin-left: auto;
-    margin-top: auto;
-    height: 435px;
-    left: 49px;
+    width: 455px;
   }
+
+  .brand-ul li > img {
+    max-width: 80px;
+   }
 }
 
 @media (max-width: 1074px) {
   body {
     padding-top: 0;
+  }
+
+  .main-body {
+    margin-top: auto;
+    margin-left: auto;
+    width: 620px;
+    height: 445px;
+    left: 49px;
   }
 
   .brand-icon {
@@ -51,9 +97,17 @@
    top: 65px;
   }
 
+  .main-heading-text-green, .main-heading-text {
+    font-size: 47px;
+  } 
+
+  .brand-ul li > img {
+    max-width: initial;
+   }
+
   .dots {
     position: relative;
-    top: 148px;
+    top: 80px;
     margin-top: 0;
     margin-left: 0;
   }
@@ -63,9 +117,17 @@
   .main-body {
     width: 565px;
   }
+
+  .dots {
+    padding-top: 35px;
+  }
 }
 
 @media (max-width: 800px) {
+  .site-wrapper {
+    padding: 0;
+  }
+
   .main-body {
     width: 555px;
   }
@@ -73,38 +135,105 @@
 
 @media (max-width: 640px) {
   .main-body {
-    width: 565px;
+    width: 500px;
   }
 }
 
-@media (max-width: 515px) {
+@media (max-width: 600px) {
+  .brand-icon {
+    left: 0;
+  }
+
+  .main-body {
+    left: 0;
+  }
+}
+
+@media (max-width: 555px) {
+  .main-body {
+    width: 466px;
+  }
+
+  .brand-ul li {
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .brand-icon {
+    padding: 0;
+  }
+
+  .main-body {
+    width: 425px;
+  }
+
+  .brand-ul li {
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 450px) {
+  .site-wrapper {
+    max-height: 755px;
+  }
+
+  .brand-site {
+    position: absolute;
+    top: -60px;
+    max-height: 755px;
+    width: 100%;
+  }
+
+  .host-pic {
+    margin: 0;
+    height: 800px;
+  }
+
   .pic-2 {
     display: none;
-  } 
-
+  }
   .pic-3 {
     display: block;
   }
 
+  .brand {
+    flex-direction: column;
+  }
+
+  .brand-icon {
+    top: 128px;
+    margin: auto;
+  }
+  
   .main-body {
     left: 0px;
     background-color: initial;
   }
 
+  .main-text > p {
+    padding-bottom: 90px;
+    padding-left: 20px;
+    line-height: 35px;
+    color: Var(--white);
+  }
+
   .main-heading-text-green {
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     max-width: 515px;
   }
 
   .main-heading-text {
+    font-size: 25px;  
     text-align: center;
     max-width: 515px;
   }
 
-  .swap-email-brand-icons {
+  .swap-email-brand-icon {
     display: flex;
     flex-direction: column-reverse;
+    padding-left: 17px;
   }
 
   .email-div {
@@ -112,4 +241,51 @@
     position: initial;
   }
 
+  .brand-ul-div {
+    width: initial;
+  }
+
+  .brand-ul li img {
+    max-width: 80px;
+    padding-right: 15px;
+  }
+
+  .email-div label {
+    position: initial;
+    display: initial;
+    align-items: initial;
+  }  
+
+  .email-input {
+    margin-top: 25px;
+  }
+
+  .submission-btn {
+    position: initial;
+    padding: 0.8rem 9.8rem;
+    margin-top: 35px;
+  }
+
+  .dots {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-text {
+    top: 0px
+  }
+
+  .main-text > p {
+    padding-bottom: 0;
+  }
+  
+  .brand-ul li img {
+    max-width: 56px;
+  }
+
+  .submission-btn {
+    margin-top: 22px;
+
+  }
 }

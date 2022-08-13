@@ -1,10 +1,14 @@
 .site-wrapper {
   max-width: 1200px;
-  margin: auto
+  margin: auto;
+  display: flex;
+  padding: 0 100px;
 }
 
 .section {
   max-height: 900px;
+  width: 1200px;
+  margin: auto;
 }
 
 .brand-site {
@@ -19,11 +23,13 @@
 
 .brand-icon {
   height: fit-content;
+  padding-right: 50px;
 }
 
 .host-pic {
-  position: relative;
-  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 655px;
 }
 
 .pic-2, .pic-3 {
@@ -39,7 +45,6 @@
   display: flex;
   position: relative;
   bottom: 500px;
-  
   height: 522px;
 }
 
